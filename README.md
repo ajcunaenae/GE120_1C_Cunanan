@@ -1,2 +1,2 @@
 # GE120_1C_Cunanan
-S
+Submission for GE 120
