@@ -38,4 +38,4 @@ seconds = float(values[2])
 
 dd = degrees + (minutes/60) + (seconds/3600)
 
-print("VALUE OF DECIMAL DEGREES:", round(dd,6))
+print("VALUE OF DMS TO DECIMAL DEGREES:", round(dd,6))
