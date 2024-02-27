@@ -29,6 +29,6 @@ print(divmod(y,x))
 
 dog = ["golden retriever", "husky", "aspin", "poodle",]
 print(dog)
-print(dog(0))
+print(dog[0])
 
 print(print)
