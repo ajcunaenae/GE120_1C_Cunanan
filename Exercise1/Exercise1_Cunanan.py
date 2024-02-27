@@ -6,13 +6,13 @@ You are watching the Disney Channel
 
 dms = 118.42069
 
-# degree part
+# how to get degree part
 
 degree = int (dms) 
 
 print("DEGREE:", dms)
 
-# minute part
+# how to get minute part
 
 minutes = (dms-degree) * 60
 
@@ -20,7 +20,7 @@ minutes_fractional = int(minutes)
 
 print("MINUTES:", minutes)
 
-# seconds part
+# how to get seconds part
 
 seconds = (minutes - minutes_fractional) * 60
 
@@ -28,6 +28,7 @@ print ("SECONDS", seconds)
 
 print("DMS: " + str(degree) + "-" + str(minutes_fractional) + "-" + str(round(seconds, 2)))
 
+# how to convert DMS to Decimal Degree
 
 dms = "118-25-14.48"
 values = dms.split ("-")
