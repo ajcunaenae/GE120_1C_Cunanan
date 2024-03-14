@@ -2,7 +2,7 @@
 Hi my name is AJ Cunanan
 This is GE 120-1C
 Machine Exercise 2
-ENJOY
+ENJOY!
 """
 # ASK FOR INPUT
 
@@ -65,5 +65,7 @@ print ('{: ^10} {: ^10} {: ^10}' .format ("LINE NO.", "DISTANCE", "BEARING"))
 for line in lines:
      print ('{: ^10} {: ^10} {: ^10}' .format (line [0], line [1], line [2]))
 
-print ("----END----")
+print ("-----END-----")
+
+
 
