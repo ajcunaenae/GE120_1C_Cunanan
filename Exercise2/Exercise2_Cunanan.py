@@ -31,13 +31,13 @@ while True:
         azimuth = float (azimuth)%360
 
     if azimuth > 0 and azimuth < 90:
-        bearing = 'S (: ^10) W' .format (azimuth)
+        bearing = 'S {: ^10} W' .format (azimuth)
     elif azimuth > 90 and azimuth < 180:
-        bearing = 'N (: ^10) W' .format (180 - azimuth)
+        bearing = 'N {: ^10} W' .format (180 - azimuth)
     elif azimuth > 180 and azimuth < 270:
-        bearing = 'N (: ^10) E' .format (azimuth - 180)
+        bearing = 'N {: ^10} E' .format (azimuth - 180)
     elif azimuth > 270 and azimuth < 360:
-        bearing = 'S (: ^10) E' .format (360 - azimuth)
+        bearing = 'S {: ^10} E' .format (360 - azimuth)
     elif azimuth == 00:
         bearing = "DUE SOUTH"
     elif azimuth == 90:
@@ -61,9 +61,9 @@ while True:
         break
 
 print ("\n\n")
-print ('(: ^10) (: ^10) (: ^10)' .format ("LINE NO.", "DISTANCE", "BEARING"))
+print ('{: ^10} {: ^10} {: ^10}' .format ("LINE NO.", "DISTANCE", "BEARING"))
 for line in lines:
-     print ('(: ^10) (: ^10) (: ^10)' .format (line [0], line [1], line [2]))
+     print ('{: ^10} {: ^10} {: ^10}' .format (line [0], line [1], line [2]))
 
 print ("----END----")
 
