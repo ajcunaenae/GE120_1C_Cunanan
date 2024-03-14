@@ -1,6 +1,7 @@
 """
 Hi my name is AJ Cunanan
-This is GE 120
+This is GE 120-1C
+Machine Exercise 1
 You are watching the Disney Channel
 """
 
@@ -10,7 +11,7 @@ dms = 118.42069
 
 degree = int (dms) 
 
-print("DEGREE:", dms)
+# print("DEGREE:", dms)
 
 # how to get minute part
 
@@ -18,13 +19,13 @@ minutes = (dms-degree) * 60
 
 minutes_fractional = int(minutes)
 
-print("MINUTES:", minutes)
+# print("MINUTES:", minutes)
 
 # how to get seconds part
 
 seconds = (minutes - minutes_fractional) * 60
 
-print ("SECONDS", seconds)
+# print ("SECONDS", seconds)
 
 print("DMS: " + str(degree) + "-" + str(minutes_fractional) + "-" + str(round(seconds, 2)))
 
